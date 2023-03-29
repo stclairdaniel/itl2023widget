@@ -195,7 +195,7 @@ class ITLWidget extends React.Component {
 
     return e('div', {className: "wrapper"}, 
       e('div', {className: "profile-picture"},
-        e('img', {src: (CONFIG.avatarSource == "" ? "Avatar.png" : CONFIG.avatarSource), "object-fit": "contain", width: "100px", height: "100px"}, null)
+        e('img', {src: (CONFIG.avatarSource == "" ? "widget/Avatar.png" : CONFIG.avatarSource), "object-fit": "contain", width: "100px", height: "100px"}, null)
       ),
       entrantName,
       entrantInfo,
